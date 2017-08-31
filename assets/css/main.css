@@ -124,6 +124,10 @@ body {
   color: rgba(255,255,255,.5);
 }
 
+.symbols-placeholder {
+  font-size: 1.5rem;
+}
+
 
 /*
  * Affix and center
@@ -149,6 +153,10 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
+
+  .symbols-placeholder {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 62em) {
@@ -156,6 +164,10 @@ body {
   .mastfoot,
   .cover-container {
     width: 42rem;
+  }
+
+  .symbols-placeholder {
+    font-size: 2.5rem;
   }
 }
 
