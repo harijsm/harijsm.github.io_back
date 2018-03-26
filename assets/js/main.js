@@ -1,12 +1,22 @@
-console.log('JS');
+var REDIRECT = true;
 
-var CHECK_URL        = "http://home.atradi.es/check.txt",
-	REDIRECT_URL     = "http://atradi.es/txt/";
+function checkLocal() {
+	var pathname = window.location.pathname;
+	if(pathname != "/") {
+		return false;
+	}
 
-function checkLocal(symbol) {
-	console.log(window.location);
+	if(typeof response == 'undefined') {
+		console.log("no response");
+		return false;
+	}
+	
+	if(REDIRECT) {
+		console.log(response.url);
+		window.location = response.url;
+	}
 }
 
 $('document').ready(function() {
-	checkLocal(times);
+	checkLocal();
 });
