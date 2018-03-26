@@ -1,45 +1,60 @@
 html, body {
 	margin: 0;
-	background: #fff;
+	background: #eee;
 }
 
 .wrapper {
-	/*max-width: 500px;*/
-	margin-left: 10%;
+	background: #eee;
 }
 
 .content {
-	padding-left: 60px;
+	overflow: hidden;
 }
 
+.wrap {
+	padding: 96px 0;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+
 h1 {
-	color: #67BE9B;
-	font-family: 'Six Caps';
-	font-size: 180px;
-	font-weight: 400;
-	line-height: 180px;
-	letter-spacing: 20px;
-	margin-bottom: 60px;
-	text-indent: -60px;
-	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Noto Serif';
+	font-size: 300px;
+	font-weight: 700;
+	line-height: 138px;
+	margin-bottom: 0px;
+	margin-left: -25%;
 }
 
 p {
-	color: #54534F;
-	font-family: 'Merriweather';
-	font-size: 18px;
+	color: #333;
+
+	font-family: 'Noto Serif';
+	font-size: 40px;
+	font-style: italic;
 	font-weight: 500;
-	line-height: 38px;
+	line-height: 54px;
 	margin-bottom: 24px;
-	max-width: 90%;
+	margin-top: 5px;
+	max-width: 600px;
+	/*text-indent: -12px;*/
+	padding: 0 10px;
 }
 
 a {
-	color: #D8B445;	border-bottom: 2px solid #D8B445;
-	font-style: italic;
+	color: #b11;	display: block;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 3px;
+	margin-left: -6px;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 
 a:hover {
-	color: #54534F;
+	color: #333;
 }
