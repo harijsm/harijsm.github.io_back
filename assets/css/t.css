@@ -1,0 +1,38 @@
+html {
+	margin: 0;
+	min-height: 100%;
+	background: #EFEFEF;
+}
+
+body {
+	margin: 0;
+	min-height: 100%;
+}
+
+#lastTemp {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	text-align: center;
+	height: 240px;
+	margin-top: -120px;
+	width: 100%;
+}
+
+#lastTemp-temp {
+	font-size: 200px;
+	margin-top: 0;
+	margin-bottom: 5px;
+	line-height: 150px;
+	color: #A9A9A9;
+}
+
+#lastTemp-date {
+	font-size: 70px;
+	color: #bbbbbb;
+}
+
+.small {
+	font-size: 160px;
+	color: #cfcfcf;
+}
