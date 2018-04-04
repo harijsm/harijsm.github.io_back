@@ -27,9 +27,9 @@ function getData() {
 }
 
 $('document').ready(function() {
-	getData();
-
 	window.setInterval(function(){
 		getData();
-	}, 20000);
+	}, 10000);
 });
+
+getData();
